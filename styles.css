@@ -1,0 +1,29 @@
+.arrayRandom{
+    width: 50%;
+}
+.containerTwo{
+    width: 100%;
+    border: solid;
+    border-color: transparent transparent transparent #81d4fa;
+}
+.eliminarPading{
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+}
+.botones{
+    border: none;
+    color:white;
+    padding: 5px 20px 5px 20px;
+    background-color: #757575;
+    margin: 20px 0px 20px 250px;
+}
+.nota{
+    margin-top: 40px;
+}
+#datosDeIngreso{
+    margin-top: 205px;
+}
+.containerResultado{
+    border: dashed;
+    border-color: #616161 ;
+}
