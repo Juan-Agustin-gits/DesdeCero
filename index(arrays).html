@@ -1,56 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="row">
-        <div class="flexContainer">
-            <div class="Header blue lighten-3">
-                <h2 class="eliminarPading center-align">Generador de datos </h2>
-                <br>
-                <p class="eliminarPading center-align"> Proximamente ordenará los datos </p>
-                <br>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="row">
+                <div class="conatinerInfo col s12 blue-grey lighten-2">
+                    <p class="links center-align">
+                        <a href="https://github.com/Juan-Agustin-gits"    target="_blanck" class="infoPerso"> GitHub    </a>
+                        <a href="https://www.instagram.com/0tro.ser.mas/" target="_blanck" class="infoPerso"> Instagram </a>
+                    </p>
+                </div>
+        <div class="bodyOne">
+            <div class="arrayRandom col s12 grey lighten-2">
+                    <h2 class="center-align">DATOS RANDOM</h2>
+                
+                    <h3 class="center-align">cantidad de datos</h3>
+                
+                        <input type="text" id="cantidad_Datos" class="inputs">
 
-            <div class="arrayRandom col s6 grey lighten-2">
-                <h2 class="center-align">DATOS RANDOM</h2>
-                
-                <h3 class="center-align">cantidad de datos</h3>
-                
-                    <input type="text" id="cantidad_Datos">
                     <p class="center-align">Minimo</p>
-                
-                    <input type="text" id="caja_minimo">
+
+                        <input type="text" id="caja_minimo" class="inputs">
+
                     <p class="center-align">Maximo</p>
-                    
-                    <input type="text" id="caja_maximo"> 
-                    <button class="botones" id="Generar">Generar datos</button>
-                
-                </div>
+                        <input type="text" id="caja_maximo" class="inputs"> 
 
-                <div class="containerTwo col s6 grey lighten-2">
-                    <h1 class="center-align">Ingresa tus datos</h1>
-                    <p class=" nota center-align">Nota: tienes que ingresar tus datos uno a uno.</p>
+                        <div class="centerBoton">
+                            <button class="botones center-align" id="Generar">Generar datos</button>
+                        </div>
                 
-                    <input type="text" id="datosDeIngreso">
-                    <button class="botones " id="botonGuardar">Guardar</button>
-                
-                </div>
+            </div>
         </div>
-        <div class="containerResultado col s12 cyan lighten-3">
-                        <p class="resultado center-align" id="resultado">Aqui saldrá tu resultado</p>
+                <div class="containerResultado col s12 cyan lighten-3">
+                        
+                    <p class="resultado center-align" id="resultado">Aqui saldrá tu resultado</p>
                     
-                    </div>
-
-                    <div class="conatinerInfo col s12 blue lighten-3">
-                        <a href="https://github.com/Juan-Agustin-gits"     > GitHub    </a>
-                        <a href="https://www.instagram.com/0tro.ser.mas/"  > Instagram </a>
-                    </div>
                 </div>
     <script src="arrays(pruebas).js"></script>
     <!-- Compiled and minified JavaScript -->

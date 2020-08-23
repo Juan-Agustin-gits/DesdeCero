@@ -1,17 +1,30 @@
+.containerInfo{
+    border:none;
+    border-radius: 5px;
+}
+.infoPerso{
+    color: black;
+    padding: 0px 50px 0px 50px;
+}
 .arrayRandom{
     width: 50%;
+    border-radius: 10px;
 }
-.containerTwo{
-    width: 100%;
-    border: solid;
-    border-color: transparent transparent transparent #81d4fa;
+.inputs{
+    width: 300px;
+}
+.centerBoton{
+    margin:auto ;
+    width: 45%;
 }
 .eliminarPading{
     margin: 0px 0px 0px 0px;
     padding: 10px;
 }
+/* estilos botones */
 .botones{
     border: none;
+    border-radius: 10px;
     color:white;
     padding: 5px 20px 5px 20px;
     background-color: #757575;
@@ -20,10 +33,9 @@
 .nota{
     margin-top: 40px;
 }
-#datosDeIngreso{
-    margin-top: 205px;
-}
+
 .containerResultado{
-    border: dashed;
+    border: none;
+    border-radius: 5px;
     border-color: #616161 ;
 }
