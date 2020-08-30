@@ -1,41 +1,45 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
 .containerInfo{
-    border:none;
-    border-radius: 5px;
+    background-color:black ;
+}
+.links{
+    width: 300px;
+    height: 20px;
+    margin: 0px 0px 20px 900px;
+    padding: 15px 10px 15px 10px ;
 }
 .infoPerso{
-    color: black;
-    padding: 0px 50px 0px 50px;
+    color: white;
+    padding: 20px 20px 20px 20px;
 }
 .arrayRandom{
     width: 50%;
-    border-radius: 10px;
+    margin:50px 0px 0px 400px;
 }
 .inputs{
     width: 300px;
 }
 .centerBoton{
     margin:auto ;
-    width: 45%;
-}
-.eliminarPading{
-    margin: 0px 0px 0px 0px;
-    padding: 10px;
+    width: 30%;
 }
 /* estilos botones */
 .botones{
-    border: none;
-    border-radius: 10px;
-    color:white;
-    padding: 5px 20px 5px 20px;
-    background-color: #757575;
-    margin: 20px 0px 20px 250px;
+    padding: 10px 25px 10px 25px;
 }
-.nota{
-    margin-top: 40px;
+.boton1{
+    font-size: 20px;
+    margin: 40px 0px 20px 0px ;
 }
-
 .containerResultado{
-    border: none;
+    margin: 20px 20px 0px 20px;
+    border: solid;
+    border-color: black;
     border-radius: 5px;
-    border-color: #616161 ;
+}
+.resultado{
+    width: 100%;
+    padding: 0px 0px 0px 10px;
 }
