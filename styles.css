@@ -2,17 +2,24 @@ body{
     margin: 0px 0px 0px 0px;
 }
 .containerInfo{
-    background-color:black ;
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 60px;
 }
 .links{
-    width: 300px;
-    height: 20px;
-    margin: 0px 0px 20px 900px;
-    padding: 15px 10px 15px 10px ;
+    margin: 10px 0px 10px 1000px;
 }
-.infoPerso{
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link{
     color: white;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 30px 20px 30px;
+    margin: 10px 0px 0px 0px ;
 }
 .arrayRandom{
     width: 50%;
