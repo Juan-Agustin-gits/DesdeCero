@@ -7,8 +7,28 @@ body{
     display: flex;
     height: 60px;
 }
+.ovalo{
+    height: 40px;
+    width: 150px;
+    background-color: #b90c0c;
+    border-radius: 50%;
+    margin: 10px 0px 0px 30px;
+}
+.Nombre{
+    margin: 10px 0px 20px -70px;
+    padding-top:5px ;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.circulo{
+    width: 35px;
+    height: 35px;
+    background-color:#3cd30c;
+    border-radius: 50%;
+    margin: 10px 0px 0px 100px;
+}
 .links{
-    margin: 10px 0px 10px 1000px;
+    margin: 20px 0px 10px 800px;
 }
 a:link{
     text-decoration: none;
@@ -35,6 +55,8 @@ a:hover{
 /* estilos botones */
 .botones{
     padding: 10px 25px 10px 25px;
+    background-color:black;
+    color: white;
 }
 .boton1{
     font-size: 20px;
